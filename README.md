@@ -1,5 +1,9 @@
 # EthSwap DEX Project
 
+_THIS PROJECT IS FOR DEVELOPMENT AND TESTING ONLY_
+
+This EthSwap DEX allows you to swap between ETH and a custom token using a local testnet via Ganache.
+
 ## Prerequisites
 
 1. Node version 10.15.0 / npm version 6.4.1
@@ -22,14 +26,16 @@
 
    - `npm install`
 
-3. Compile the smart contracts and migrate them into the build ("/abis") folder
+3. Ensure Ganache is running and the port matches `networks.development.port` in `truffle-config.js`
+
+4. Compile the smart contracts and migrate them into the build ("/abis") folder
 
    - `truffle compile`
    - `truffle migrate`
 
-4. Open a separate terminal within the project and run the node server
+5. Open a separate terminal within the project and run the node server
    - `npm run start`
 
 ## Usage
 
-This EthSwap DEX allows you to swap between ETH and a custom token.
+This DEX allows a user to
