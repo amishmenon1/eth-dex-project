@@ -37,5 +37,3 @@ This EthSwap DEX allows you to swap between ETH and a custom token using a local
    - `npm run start`
 
 ## Usage
-
-This DEX allows a user to
