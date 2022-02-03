@@ -1,6 +1,6 @@
 {
-  "short_name": "Starter Kit",
-  "name": "Dapp University Starter Kit",
+  "short_name": "EthSwap",
+  "name": "My Custom Token DEX",
   "icons": [
     {
       "src": "favicon.ico",
