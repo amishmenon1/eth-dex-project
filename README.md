@@ -36,4 +36,6 @@ This EthSwap DEX allows you to swap between ETH and a custom token using a local
 5. Open a separate terminal within the project and run the node server
    - `npm run start`
 
-## Usage
+## Upon Successful Load
+
+![EthSwap Home Page](home-page-screenshot.png "EthSwap DEX")
