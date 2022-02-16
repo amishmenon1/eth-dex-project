@@ -29,7 +29,7 @@ class BuyForm extends Component {
         }}
       >
         <div>
-          <label className="float-left">
+          <label className="float-left text-muted">
             <b>Input</b>
           </label>
           <span className="float-right text-muted">
@@ -61,7 +61,7 @@ class BuyForm extends Component {
           </div>
         </div>
         <div>
-          <label className="float-left">
+          <label className="float-left text-muted">
             <b>Output</b>
           </label>
           <span className="float-right text-muted">

@@ -1,1 +1,10 @@
 /* Styles go here */
+
+.text-muted {
+  color: springgreen !important;
+  font-weight: bolder;
+}
+
+body {
+  background-color: black;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import BuyForm from "./BuyForm";
 import SellForm from "./SellForm";
+import "./Main.css";
 
 class Main extends Component {
   constructor(props) {
@@ -36,7 +37,7 @@ class Main extends Component {
 
     return (
       <div id="content" className="mt-3">
-        <div className="d-flex justify-content-between mb-3">
+        <div className="d-flex justify-content-between mb-3 action-toolbar">
           <button
             className="btn btn-light"
             onClick={(event) => {
@@ -56,7 +57,7 @@ class Main extends Component {
           </button>
         </div>
 
-        <div className="card mb-4">
+        <div className="card mb-4 dex-main">
           <div className="card-body">{content}</div>
         </div>
       </div>
